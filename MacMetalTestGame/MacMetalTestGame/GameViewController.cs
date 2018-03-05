@@ -229,7 +229,7 @@ namespace MacMetalTestGame
             pinnedUniforms.Free();
 
             Marshal.Copy(rawdata, 0, dynamicConstantBuffer.Contents + rawsize * constantDataBufferIndex, rawsize);
-            rotation += .01f;
+            rotation += .1f;
         }
 
         void Reshape()
