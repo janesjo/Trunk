@@ -19,7 +19,7 @@ namespace MacMetalTestGame
             public Matrix4 NormalMatrix;
         }
 
-        // The max number of command buffers in flight
+        // The max number of command buffers in flight(s)
         const int MaxInflightBuffers = 3;
 
         // Max API memory buffer size.
